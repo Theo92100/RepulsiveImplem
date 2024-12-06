@@ -1,0 +1,966 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Darwin - 24.0.0 - arm64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      ld: library 'System' not found
+      cc: error: linker command failed with exit code 1 (use -v to see invocation)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is AppleClang, found in:
+        /Users/theoniemann/Desktop/MVA/GDA/Thèse/geodesic_interpolation/build/CMakeFiles/3.31.1/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      ld: library 'c++' not found
+      c++: error: linker command failed with exit code 1 (use -v to see invocation)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is AppleClang, found in:
+        /Users/theoniemann/Desktop/MVA/GDA/Thèse/geodesic_interpolation/build/CMakeFiles/3.31.1/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/theoniemann/Desktop/MVA/GDA/The\u0300se/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-wbdNsO"
+      binary: "/Users/theoniemann/Desktop/MVA/GDA/The\u0300se/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-wbdNsO"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "15.0"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/theoniemann/Desktop/MVA/GDA/Thèse/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-wbdNsO'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1f026/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_1f026.dir/build.make CMakeFiles/cmTC_1f026.dir/build
+        Building C object CMakeFiles/cmTC_1f026.dir/CMakeCCompilerABI.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0   -v -Wl,-v -MD -MT CMakeFiles/cmTC_1f026.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_1f026.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_1f026.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+        Apple clang version 16.0.0 (clang-1600.0.26.4)
+        Target: arm64-apple-darwin24.0.0
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+        cc: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.1 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1115.7.3 -v -fcoverage-compilation-dir=/Users/theoniemann/Desktop/MVA/GDA/Thèse/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-wbdNsO -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_1f026.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_1f026.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/theoniemann/Desktop/MVA/GDA/Thèse/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-wbdNsO -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_1f026.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 16.0.0 (clang-1600.0.26.4) default target arm64-apple-darwin24.0.0
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/local/include"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        Linking C executable cmTC_1f026
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f026.dir/link.txt --verbose=1
+        Apple clang version 16.0.0 (clang-1600.0.26.4)
+        Target: arm64-apple-darwin24.0.0
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 15.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_1f026 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_1f026.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld PROJECT:ld-1115.7.3
+        BUILD 07:38:57 Oct  4 2024
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+        will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+        LTO support using: LLVM version 16.0.0 (static support for 29, runtime is 29)
+        TAPI support using: Apple TAPI version 16.0.0 (tapi-1600.0.11.8)
+        Library search paths:
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/lib
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/lib/swift
+        Framework search paths:
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/System/Library/Frameworks
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_1f026.dir/CMakeCCompilerABI.c.o -o cmTC_1f026
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:113 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Effective list of requested architectures (possibly empty)  : ""
+      Effective list of architectures found in the ABI info binary: "arm64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        end of search list found
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/Users/theoniemann/Desktop/MVA/GDA/Thèse/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-wbdNsO']
+        ignore line: []
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1f026/fast]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_1f026.dir/build.make CMakeFiles/cmTC_1f026.dir/build]
+        ignore line: [Building C object CMakeFiles/cmTC_1f026.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0   -v -Wl -v -MD -MT CMakeFiles/cmTC_1f026.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_1f026.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_1f026.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Apple clang version 16.0.0 (clang-1600.0.26.4)]
+        ignore line: [Target: arm64-apple-darwin24.0.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        ignore line: [cc: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.1 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1115.7.3 -v -fcoverage-compilation-dir=/Users/theoniemann/Desktop/MVA/GDA/Thèse/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-wbdNsO -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_1f026.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_1f026.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/theoniemann/Desktop/MVA/GDA/Thèse/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-wbdNsO -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_1f026.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 16.0.0 (clang-1600.0.26.4) default target arm64-apple-darwin24.0.0]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [Linking C executable cmTC_1f026]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f026.dir/link.txt --verbose=1]
+        ignore line: [Apple clang version 16.0.0 (clang-1600.0.26.4)]
+        ignore line: [Target: arm64-apple-darwin24.0.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 15.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_1f026 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_1f026.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [arm64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [15.0.0] ==> ignore
+          arg [15.1] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk] ==> ignore
+          arg [-mllvm] ==> ignore
+          arg [-enable-linkonceodr-outlining] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_1f026] ==> ignore
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_1f026.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lSystem] ==> lib [System]
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
+        linker tool for 'C': /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+        Library search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/lib/swift]
+        Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/System/Library/Frameworks]
+        remove lib [System]
+        remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/lib]
+        collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/lib/swift] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/lib/swift]
+        collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/System/Library/Frameworks] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/System/Library/Frameworks]
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/lib/swift]
+        implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" "-v"
+      @(#)PROGRAM:ld PROJECT:ld-1115.7.3
+      BUILD 07:38:57 Oct  4 2024
+      configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+      will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+      LTO support using: LLVM version 16.0.0 (static support for 29, runtime is 29)
+      TAPI support using: Apple TAPI version 16.0.0 (tapi-1600.0.11.8)
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/Users/theoniemann/Desktop/MVA/GDA/The\u0300se/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-UbGzlA"
+      binary: "/Users/theoniemann/Desktop/MVA/GDA/The\u0300se/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-UbGzlA"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "15.0"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/theoniemann/Desktop/MVA/GDA/Thèse/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-UbGzlA'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0166f/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_0166f.dir/build.make CMakeFiles/cmTC_0166f.dir/build
+        Building CXX object CMakeFiles/cmTC_0166f.dir/CMakeCXXCompilerABI.cpp.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0   -v -Wl,-v -MD -MT CMakeFiles/cmTC_0166f.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_0166f.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_0166f.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Apple clang version 16.0.0 (clang-1600.0.26.4)
+        Target: arm64-apple-darwin24.0.0
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+        c++: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.1 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1115.7.3 -v -fcoverage-compilation-dir=/Users/theoniemann/Desktop/MVA/GDA/Thèse/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-UbGzlA -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_0166f.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_0166f.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/theoniemann/Desktop/MVA/GDA/Thèse/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-UbGzlA -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_0166f.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 16.0.0 (clang-1600.0.26.4) default target arm64-apple-darwin24.0.0
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/local/include"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        Linking CXX executable cmTC_0166f
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0166f.dir/link.txt --verbose=1
+        Apple clang version 16.0.0 (clang-1600.0.26.4)
+        Target: arm64-apple-darwin24.0.0
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 15.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_0166f -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_0166f.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld PROJECT:ld-1115.7.3
+        BUILD 07:38:57 Oct  4 2024
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+        will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+        LTO support using: LLVM version 16.0.0 (static support for 29, runtime is 29)
+        TAPI support using: Apple TAPI version 16.0.0 (tapi-1600.0.11.8)
+        Library search paths:
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/lib
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/lib/swift
+        Framework search paths:
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/System/Library/Frameworks
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_0166f.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_0166f
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:113 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Effective list of requested architectures (possibly empty)  : ""
+      Effective list of architectures found in the ABI info binary: "arm64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1]
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        end of search list found
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/Users/theoniemann/Desktop/MVA/GDA/Thèse/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-UbGzlA']
+        ignore line: []
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0166f/fast]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_0166f.dir/build.make CMakeFiles/cmTC_0166f.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_0166f.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0   -v -Wl -v -MD -MT CMakeFiles/cmTC_0166f.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_0166f.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_0166f.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Apple clang version 16.0.0 (clang-1600.0.26.4)]
+        ignore line: [Target: arm64-apple-darwin24.0.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        ignore line: [c++: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.1 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1115.7.3 -v -fcoverage-compilation-dir=/Users/theoniemann/Desktop/MVA/GDA/Thèse/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-UbGzlA -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_0166f.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_0166f.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/theoniemann/Desktop/MVA/GDA/Thèse/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-UbGzlA -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_0166f.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 16.0.0 (clang-1600.0.26.4) default target arm64-apple-darwin24.0.0]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [Linking CXX executable cmTC_0166f]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0166f.dir/link.txt --verbose=1]
+        ignore line: [Apple clang version 16.0.0 (clang-1600.0.26.4)]
+        ignore line: [Target: arm64-apple-darwin24.0.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 15.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_0166f -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_0166f.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [arm64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [15.0.0] ==> ignore
+          arg [15.1] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk] ==> ignore
+          arg [-mllvm] ==> ignore
+          arg [-enable-linkonceodr-outlining] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_0166f] ==> ignore
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_0166f.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lc++] ==> lib [c++]
+          arg [-lSystem] ==> lib [System]
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
+        linker tool for 'CXX': /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+        Library search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/lib/swift]
+        Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/System/Library/Frameworks]
+        remove lib [System]
+        remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/lib]
+        collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/lib/swift] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/lib/swift]
+        collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/System/Library/Frameworks] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/System/Library/Frameworks]
+        implicit libs: [c++]
+        implicit objs: []
+        implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/lib/swift]
+        implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" "-v"
+      @(#)PROGRAM:ld PROJECT:ld-1115.7.3
+      BUILD 07:38:57 Oct  4 2024
+      configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+      will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+      LTO support using: LLVM version 16.0.0 (static support for 29, runtime is 29)
+      TAPI support using: Apple TAPI version 16.0.0 (tapi-1600.0.11.8)
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/FindBLAS.cmake:379 (check_function_exists)"
+      - "/opt/homebrew/share/cmake/Modules/FindBLAS.cmake:423 (check_blas_libraries)"
+      - "goast/cmake/Modules/FindSuiteSparse.cmake:324 (find_package)"
+      - "goast/cmake/GOAST.cmake:13 (find_package)"
+      - "CMakeLists.txt:13 (include)"
+    directories:
+      source: "/Users/theoniemann/Desktop/MVA/GDA/The\u0300se/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-TKVppr"
+      binary: "/Users/theoniemann/Desktop/MVA/GDA/The\u0300se/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-TKVppr"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/theoniemann/Desktop/MVA/GDA/The\u0300se/geodesic_interpolation/goast/cmake;/Users/theoniemann/Desktop/MVA/GDA/The\u0300se/geodesic_interpolation/goast/cmake/Modules"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "15.0"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk"
+    buildResult:
+      variable: "BLAS_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/theoniemann/Desktop/MVA/GDA/Thèse/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-TKVppr'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_823c9/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_823c9.dir/build.make CMakeFiles/cmTC_823c9.dir/build
+        Building C object CMakeFiles/cmTC_823c9.dir/CheckFunctionExists.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgemm_ -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -MD -MT CMakeFiles/cmTC_823c9.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_823c9.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_823c9.dir/CheckFunctionExists.c.o -c /Users/theoniemann/Desktop/MVA/GDA/Thèse/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-TKVppr/CheckFunctionExists.c
+        Linking C executable cmTC_823c9
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_823c9.dir/link.txt --verbose=1
+        Undefined symbols for architecture arm64:
+          "_sgemm_", referenced from:
+              _main in CheckFunctionExists.c.o
+        ld: symbol(s) not found for architecture arm64
+        cc: error: linker command failed with exit code 1 (use -v to see invocation)
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgemm_ -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_823c9.dir/CheckFunctionExists.c.o -o cmTC_823c9
+        make[1]: *** [cmTC_823c9] Error 1
+        make: *** [cmTC_823c9/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/opt/homebrew/share/cmake/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "/opt/homebrew/share/cmake/Modules/FindBLAS.cmake:475 (find_package)"
+      - "goast/cmake/Modules/FindSuiteSparse.cmake:324 (find_package)"
+      - "goast/cmake/GOAST.cmake:13 (find_package)"
+      - "CMakeLists.txt:13 (include)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/Users/theoniemann/Desktop/MVA/GDA/The\u0300se/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-HB38dD"
+      binary: "/Users/theoniemann/Desktop/MVA/GDA/The\u0300se/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-HB38dD"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/theoniemann/Desktop/MVA/GDA/The\u0300se/geodesic_interpolation/goast/cmake;/Users/theoniemann/Desktop/MVA/GDA/The\u0300se/geodesic_interpolation/goast/cmake/Modules"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "15.0"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/theoniemann/Desktop/MVA/GDA/Thèse/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-HB38dD'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2599e/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_2599e.dir/build.make CMakeFiles/cmTC_2599e.dir/build
+        Building C object CMakeFiles/cmTC_2599e.dir/src.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -MD -MT CMakeFiles/cmTC_2599e.dir/src.c.o -MF CMakeFiles/cmTC_2599e.dir/src.c.o.d -o CMakeFiles/cmTC_2599e.dir/src.c.o -c /Users/theoniemann/Desktop/MVA/GDA/Thèse/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-HB38dD/src.c
+        Linking C executable cmTC_2599e
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2599e.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_2599e.dir/src.c.o -o cmTC_2599e
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/FindBLAS.cmake:379 (check_function_exists)"
+      - "/opt/homebrew/share/cmake/Modules/FindBLAS.cmake:1218 (check_blas_libraries)"
+      - "goast/cmake/Modules/FindSuiteSparse.cmake:324 (find_package)"
+      - "goast/cmake/GOAST.cmake:13 (find_package)"
+      - "CMakeLists.txt:13 (include)"
+    directories:
+      source: "/Users/theoniemann/Desktop/MVA/GDA/The\u0300se/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-3vroRF"
+      binary: "/Users/theoniemann/Desktop/MVA/GDA/The\u0300se/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-3vroRF"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/theoniemann/Desktop/MVA/GDA/The\u0300se/geodesic_interpolation/goast/cmake;/Users/theoniemann/Desktop/MVA/GDA/The\u0300se/geodesic_interpolation/goast/cmake/Modules"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "15.0"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk"
+    buildResult:
+      variable: "BLAS_Accelerate_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/theoniemann/Desktop/MVA/GDA/Thèse/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-3vroRF'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_67ae0/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_67ae0.dir/build.make CMakeFiles/cmTC_67ae0.dir/build
+        Building C object CMakeFiles/cmTC_67ae0.dir/CheckFunctionExists.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/System/Library/Frameworks -DCHECK_FUNCTION_EXISTS=dgemm_ -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -MD -MT CMakeFiles/cmTC_67ae0.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_67ae0.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_67ae0.dir/CheckFunctionExists.c.o -c /Users/theoniemann/Desktop/MVA/GDA/Thèse/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-3vroRF/CheckFunctionExists.c
+        Linking C executable cmTC_67ae0
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67ae0.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=dgemm_ -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_67ae0.dir/CheckFunctionExists.c.o -o cmTC_67ae0  -framework Accelerate
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/FindLAPACK.cmake:220 (check_function_exists)"
+      - "/opt/homebrew/share/cmake/Modules/FindLAPACK.cmake:399 (check_lapack_libraries)"
+      - "goast/cmake/Modules/FindSuiteSparse.cmake:332 (find_package)"
+      - "goast/cmake/GOAST.cmake:13 (find_package)"
+      - "CMakeLists.txt:13 (include)"
+    directories:
+      source: "/Users/theoniemann/Desktop/MVA/GDA/The\u0300se/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-iC85B8"
+      binary: "/Users/theoniemann/Desktop/MVA/GDA/The\u0300se/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-iC85B8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/theoniemann/Desktop/MVA/GDA/The\u0300se/geodesic_interpolation/goast/cmake;/Users/theoniemann/Desktop/MVA/GDA/The\u0300se/geodesic_interpolation/goast/cmake/Modules"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "15.0"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk"
+    buildResult:
+      variable: "LAPACK_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/theoniemann/Desktop/MVA/GDA/Thèse/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-iC85B8'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7fde6/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_7fde6.dir/build.make CMakeFiles/cmTC_7fde6.dir/build
+        Building C object CMakeFiles/cmTC_7fde6.dir/CheckFunctionExists.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/System/Library/Frameworks -DCHECK_FUNCTION_EXISTS=cheev_ -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -MD -MT CMakeFiles/cmTC_7fde6.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_7fde6.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_7fde6.dir/CheckFunctionExists.c.o -c /Users/theoniemann/Desktop/MVA/GDA/Thèse/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-iC85B8/CheckFunctionExists.c
+        Linking C executable cmTC_7fde6
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7fde6.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=cheev_ -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_7fde6.dir/CheckFunctionExists.c.o -o cmTC_7fde6  -framework Accelerate -lm -ldl
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/FindOpenMP.cmake:252 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/FindOpenMP.cmake:522 (_OPENMP_GET_FLAGS)"
+      - "goast/cmake/GOAST.cmake:46 (find_package)"
+      - "CMakeLists.txt:13 (include)"
+    description: "Detecting C OpenMP compiler info"
+    directories:
+      source: "/Users/theoniemann/Desktop/MVA/GDA/The\u0300se/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-KBNvh1"
+      binary: "/Users/theoniemann/Desktop/MVA/GDA/The\u0300se/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-KBNvh1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/theoniemann/Desktop/MVA/GDA/The\u0300se/geodesic_interpolation/goast/cmake;/Users/theoniemann/Desktop/MVA/GDA/The\u0300se/geodesic_interpolation/goast/cmake/Modules"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "15.0"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_Xclang fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/theoniemann/Desktop/MVA/GDA/Thèse/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-KBNvh1'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ae382/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_ae382.dir/build.make CMakeFiles/cmTC_ae382.dir/build
+        Building C object CMakeFiles/cmTC_ae382.dir/OpenMPTryFlag.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Xclang -fopenmp -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -MD -MT CMakeFiles/cmTC_ae382.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_ae382.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_ae382.dir/OpenMPTryFlag.c.o -c /Users/theoniemann/Desktop/MVA/GDA/Thèse/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-KBNvh1/OpenMPTryFlag.c
+        /Users/theoniemann/Desktop/MVA/GDA/Thèse/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-KBNvh1/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+            2 | #include <omp.h>
+              |          ^~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_ae382.dir/OpenMPTryFlag.c.o] Error 1
+        make: *** [cmTC_ae382/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/FindOpenMP.cmake:252 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/FindOpenMP.cmake:522 (_OPENMP_GET_FLAGS)"
+      - "goast/cmake/GOAST.cmake:46 (find_package)"
+      - "CMakeLists.txt:13 (include)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "/Users/theoniemann/Desktop/MVA/GDA/The\u0300se/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-HVlhvl"
+      binary: "/Users/theoniemann/Desktop/MVA/GDA/The\u0300se/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-HVlhvl"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/theoniemann/Desktop/MVA/GDA/The\u0300se/geodesic_interpolation/goast/cmake;/Users/theoniemann/Desktop/MVA/GDA/The\u0300se/geodesic_interpolation/goast/cmake/Modules"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "15.0"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_Xclang fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/theoniemann/Desktop/MVA/GDA/Thèse/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-HVlhvl'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_96dad/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_96dad.dir/build.make CMakeFiles/cmTC_96dad.dir/build
+        Building CXX object CMakeFiles/cmTC_96dad.dir/OpenMPTryFlag.cpp.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Xclang -fopenmp -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -MD -MT CMakeFiles/cmTC_96dad.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_96dad.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_96dad.dir/OpenMPTryFlag.cpp.o -c /Users/theoniemann/Desktop/MVA/GDA/Thèse/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-HVlhvl/OpenMPTryFlag.cpp
+        /Users/theoniemann/Desktop/MVA/GDA/Thèse/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-HVlhvl/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+            2 | #include <omp.h>
+              |          ^~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_96dad.dir/OpenMPTryFlag.cpp.o] Error 1
+        make: *** [cmTC_96dad/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/FindOpenMP.cmake:252 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/FindOpenMP.cmake:522 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:46 (find_package)"
+    description: "Detecting C OpenMP compiler info"
+    directories:
+      source: "/Users/theoniemann/Desktop/MVA/GDA/The\u0300se/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-udvmQE"
+      binary: "/Users/theoniemann/Desktop/MVA/GDA/The\u0300se/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-udvmQE"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/theoniemann/Desktop/MVA/GDA/The\u0300se/geodesic_interpolation/goast/cmake;/Users/theoniemann/Desktop/MVA/GDA/The\u0300se/geodesic_interpolation/goast/cmake/Modules"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "15.0"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_Xclang fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/theoniemann/Desktop/MVA/GDA/Thèse/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-udvmQE'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b2e88/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_b2e88.dir/build.make CMakeFiles/cmTC_b2e88.dir/build
+        Building C object CMakeFiles/cmTC_b2e88.dir/OpenMPTryFlag.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Xclang -fopenmp -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -MD -MT CMakeFiles/cmTC_b2e88.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_b2e88.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_b2e88.dir/OpenMPTryFlag.c.o -c /Users/theoniemann/Desktop/MVA/GDA/Thèse/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-udvmQE/OpenMPTryFlag.c
+        /Users/theoniemann/Desktop/MVA/GDA/Thèse/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-udvmQE/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+            2 | #include <omp.h>
+              |          ^~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_b2e88.dir/OpenMPTryFlag.c.o] Error 1
+        make: *** [cmTC_b2e88/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/FindOpenMP.cmake:354 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/FindOpenMP.cmake:522 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:46 (find_package)"
+    description: "Trying C OpenMP compiler with '/opt/homebrew/opt/libomp/lib/libomp.dylib'"
+    directories:
+      source: "/Users/theoniemann/Desktop/MVA/GDA/The\u0300se/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-D6MgVo"
+      binary: "/Users/theoniemann/Desktop/MVA/GDA/The\u0300se/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-D6MgVo"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/theoniemann/Desktop/MVA/GDA/The\u0300se/geodesic_interpolation/goast/cmake;/Users/theoniemann/Desktop/MVA/GDA/The\u0300se/geodesic_interpolation/goast/cmake/Modules"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "15.0"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_Xclang fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/theoniemann/Desktop/MVA/GDA/Thèse/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-D6MgVo'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_66195/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_66195.dir/build.make CMakeFiles/cmTC_66195.dir/build
+        Building C object CMakeFiles/cmTC_66195.dir/OpenMPTryFlag.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0   -Xclang -fopenmp -MD -MT CMakeFiles/cmTC_66195.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_66195.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_66195.dir/OpenMPTryFlag.c.o -c /Users/theoniemann/Desktop/MVA/GDA/Thèse/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-D6MgVo/OpenMPTryFlag.c
+        /Users/theoniemann/Desktop/MVA/GDA/Thèse/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-D6MgVo/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+            2 | #include <omp.h>
+              |          ^~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_66195.dir/OpenMPTryFlag.c.o] Error 1
+        make: *** [cmTC_66195/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/FindOpenMP.cmake:365 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/FindOpenMP.cmake:522 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:46 (find_package)"
+    description: "Trying C OpenMP compiler with '/opt/homebrew/opt/libomp/lib/libomp.dylib' and '/opt/homebrew/opt/libomp/include'"
+    directories:
+      source: "/Users/theoniemann/Desktop/MVA/GDA/The\u0300se/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-yKZZGr"
+      binary: "/Users/theoniemann/Desktop/MVA/GDA/The\u0300se/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-yKZZGr"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/theoniemann/Desktop/MVA/GDA/The\u0300se/geodesic_interpolation/goast/cmake;/Users/theoniemann/Desktop/MVA/GDA/The\u0300se/geodesic_interpolation/goast/cmake/Modules"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "15.0"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_Xclang fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/theoniemann/Desktop/MVA/GDA/Thèse/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-yKZZGr'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_666b0/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_666b0.dir/build.make CMakeFiles/cmTC_666b0.dir/build
+        Building C object CMakeFiles/cmTC_666b0.dir/OpenMPTryFlag.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -I/opt/homebrew/opt/libomp/include -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0   -Xclang -fopenmp -MD -MT CMakeFiles/cmTC_666b0.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_666b0.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_666b0.dir/OpenMPTryFlag.c.o -c /Users/theoniemann/Desktop/MVA/GDA/Thèse/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-yKZZGr/OpenMPTryFlag.c
+        Linking C executable cmTC_666b0
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_666b0.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_666b0.dir/OpenMPTryFlag.c.o -o cmTC_666b0  /opt/homebrew/opt/libomp/lib/libomp.dylib
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/FindOpenMP.cmake:252 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/FindOpenMP.cmake:522 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:46 (find_package)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "/Users/theoniemann/Desktop/MVA/GDA/The\u0300se/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-Vk0jss"
+      binary: "/Users/theoniemann/Desktop/MVA/GDA/The\u0300se/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-Vk0jss"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/theoniemann/Desktop/MVA/GDA/The\u0300se/geodesic_interpolation/goast/cmake;/Users/theoniemann/Desktop/MVA/GDA/The\u0300se/geodesic_interpolation/goast/cmake/Modules"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "15.0"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_Xclang fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/theoniemann/Desktop/MVA/GDA/Thèse/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-Vk0jss'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_68ca1/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_68ca1.dir/build.make CMakeFiles/cmTC_68ca1.dir/build
+        Building CXX object CMakeFiles/cmTC_68ca1.dir/OpenMPTryFlag.cpp.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Xclang -fopenmp -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -MD -MT CMakeFiles/cmTC_68ca1.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_68ca1.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_68ca1.dir/OpenMPTryFlag.cpp.o -c /Users/theoniemann/Desktop/MVA/GDA/Thèse/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-Vk0jss/OpenMPTryFlag.cpp
+        /Users/theoniemann/Desktop/MVA/GDA/Thèse/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-Vk0jss/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+            2 | #include <omp.h>
+              |          ^~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_68ca1.dir/OpenMPTryFlag.cpp.o] Error 1
+        make: *** [cmTC_68ca1/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/FindOpenMP.cmake:354 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/FindOpenMP.cmake:522 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:46 (find_package)"
+    description: "Trying CXX OpenMP compiler with '/opt/homebrew/opt/libomp/lib/libomp.dylib'"
+    directories:
+      source: "/Users/theoniemann/Desktop/MVA/GDA/The\u0300se/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-hj1xrz"
+      binary: "/Users/theoniemann/Desktop/MVA/GDA/The\u0300se/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-hj1xrz"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/theoniemann/Desktop/MVA/GDA/The\u0300se/geodesic_interpolation/goast/cmake;/Users/theoniemann/Desktop/MVA/GDA/The\u0300se/geodesic_interpolation/goast/cmake/Modules"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "15.0"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_Xclang fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/theoniemann/Desktop/MVA/GDA/Thèse/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-hj1xrz'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_27ea3/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_27ea3.dir/build.make CMakeFiles/cmTC_27ea3.dir/build
+        Building CXX object CMakeFiles/cmTC_27ea3.dir/OpenMPTryFlag.cpp.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0   -Xclang -fopenmp -MD -MT CMakeFiles/cmTC_27ea3.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_27ea3.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_27ea3.dir/OpenMPTryFlag.cpp.o -c /Users/theoniemann/Desktop/MVA/GDA/Thèse/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-hj1xrz/OpenMPTryFlag.cpp
+        /Users/theoniemann/Desktop/MVA/GDA/Thèse/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-hj1xrz/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+            2 | #include <omp.h>
+              |          ^~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_27ea3.dir/OpenMPTryFlag.cpp.o] Error 1
+        make: *** [cmTC_27ea3/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/FindOpenMP.cmake:365 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/FindOpenMP.cmake:522 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:46 (find_package)"
+    description: "Trying CXX OpenMP compiler with '/opt/homebrew/opt/libomp/lib/libomp.dylib' and '/opt/homebrew/opt/libomp/include'"
+    directories:
+      source: "/Users/theoniemann/Desktop/MVA/GDA/The\u0300se/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-Qd1IrU"
+      binary: "/Users/theoniemann/Desktop/MVA/GDA/The\u0300se/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-Qd1IrU"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/theoniemann/Desktop/MVA/GDA/The\u0300se/geodesic_interpolation/goast/cmake;/Users/theoniemann/Desktop/MVA/GDA/The\u0300se/geodesic_interpolation/goast/cmake/Modules"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "15.0"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_Xclang fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/theoniemann/Desktop/MVA/GDA/Thèse/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-Qd1IrU'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a10e0/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_a10e0.dir/build.make CMakeFiles/cmTC_a10e0.dir/build
+        Building CXX object CMakeFiles/cmTC_a10e0.dir/OpenMPTryFlag.cpp.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/opt/homebrew/opt/libomp/include -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0   -Xclang -fopenmp -MD -MT CMakeFiles/cmTC_a10e0.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_a10e0.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_a10e0.dir/OpenMPTryFlag.cpp.o -c /Users/theoniemann/Desktop/MVA/GDA/Thèse/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-Qd1IrU/OpenMPTryFlag.cpp
+        Linking CXX executable cmTC_a10e0
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a10e0.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_a10e0.dir/OpenMPTryFlag.cpp.o -o cmTC_a10e0  /opt/homebrew/opt/libomp/lib/libomp.dylib
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/FindOpenMP.cmake:456 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/FindOpenMP.cmake:596 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:46 (find_package)"
+    description: "Detecting C OpenMP version"
+    directories:
+      source: "/Users/theoniemann/Desktop/MVA/GDA/The\u0300se/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-S6900s"
+      binary: "/Users/theoniemann/Desktop/MVA/GDA/The\u0300se/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-S6900s"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/theoniemann/Desktop/MVA/GDA/The\u0300se/geodesic_interpolation/goast/cmake;/Users/theoniemann/Desktop/MVA/GDA/The\u0300se/geodesic_interpolation/goast/cmake/Modules"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "15.0"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk"
+    buildResult:
+      variable: "OpenMP_SPECTEST_C_"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/theoniemann/Desktop/MVA/GDA/Thèse/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-S6900s'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e9f82/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_e9f82.dir/build.make CMakeFiles/cmTC_e9f82.dir/build
+        Building C object CMakeFiles/cmTC_e9f82.dir/OpenMPCheckVersion.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -I/opt/homebrew/opt/libomp/include -Xclang -fopenmp -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -MD -MT CMakeFiles/cmTC_e9f82.dir/OpenMPCheckVersion.c.o -MF CMakeFiles/cmTC_e9f82.dir/OpenMPCheckVersion.c.o.d -o CMakeFiles/cmTC_e9f82.dir/OpenMPCheckVersion.c.o -c /Users/theoniemann/Desktop/MVA/GDA/Thèse/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-S6900s/OpenMPCheckVersion.c
+        Linking C executable cmTC_e9f82
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9f82.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -Xclang -fopenmp -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_e9f82.dir/OpenMPCheckVersion.c.o -o cmTC_e9f82
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/FindOpenMP.cmake:456 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/FindOpenMP.cmake:596 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:46 (find_package)"
+    description: "Detecting CXX OpenMP version"
+    directories:
+      source: "/Users/theoniemann/Desktop/MVA/GDA/The\u0300se/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-CPocZ9"
+      binary: "/Users/theoniemann/Desktop/MVA/GDA/The\u0300se/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-CPocZ9"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/theoniemann/Desktop/MVA/GDA/The\u0300se/geodesic_interpolation/goast/cmake;/Users/theoniemann/Desktop/MVA/GDA/The\u0300se/geodesic_interpolation/goast/cmake/Modules"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "15.0"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk"
+    buildResult:
+      variable: "OpenMP_SPECTEST_CXX_"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/theoniemann/Desktop/MVA/GDA/Thèse/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-CPocZ9'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5f730/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_5f730.dir/build.make CMakeFiles/cmTC_5f730.dir/build
+        Building CXX object CMakeFiles/cmTC_5f730.dir/OpenMPCheckVersion.cpp.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/opt/homebrew/opt/libomp/include -Xclang -fopenmp -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -MD -MT CMakeFiles/cmTC_5f730.dir/OpenMPCheckVersion.cpp.o -MF CMakeFiles/cmTC_5f730.dir/OpenMPCheckVersion.cpp.o.d -o CMakeFiles/cmTC_5f730.dir/OpenMPCheckVersion.cpp.o -c /Users/theoniemann/Desktop/MVA/GDA/Thèse/geodesic_interpolation/build/CMakeFiles/CMakeScratch/TryCompile-CPocZ9/OpenMPCheckVersion.cpp
+        Linking CXX executable cmTC_5f730
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f730.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -Xclang -fopenmp -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_5f730.dir/OpenMPCheckVersion.cpp.o -o cmTC_5f730
+        
+      exitCode: 0
+...
